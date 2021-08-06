@@ -1,0 +1,29 @@
+{
+  "orgName": "NA AI",
+  "edition": "Developer",
+  "country": "US",
+  "hasSampleData": false,
+  "features": ["AuthorApex","DebugApex","API","Sites","WorkThanksPref"],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "securitySettings": {
+      "passwordPolicies": {
+        "enableSetPasswordInApi": true
+      }
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    }
+  },
+  "objectSettings": {
+    "opportunity": {
+       "sharingModel": "private",
+       "defaultRecordType": "default"
+    },
+    "account": {
+       "defaultRecordType": "default"
+    }
+ }
+}
